@@ -30,6 +30,9 @@ body{
     align-items: center;
     height: 80svh;
     padding: 30px 5%;
+    -webkit-box-shadow: inset 200px 10px 152px 23px rgba(0,0,0,0.71);
+    -moz-box-shadow: inset 200px 10px 152px 23px rgba(0,0,0,0.71);
+    box-shadow: inset 200px 10px 152px 23px rgba(0,0,0,0.71);
     background-image: url(../images/mobile/image-hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -50,10 +53,11 @@ header section{
     gap: 2rem;
     width: 100vw;
     height: 100svh;
-    padding: 30svh 0;
+    padding: 30svh 5vw;
     list-style: none;
     opacity: 0;
     margin: 0;
+    background-color: #000;
     transition: all .3s ease-in-out;
 }
 .logo{
@@ -105,7 +109,9 @@ header section{
     height: 20svh;
     margin: 2rem 0;
     color: #fff;
-}
+    -webkit-box-shadow: inset 200px 10px 152px 23px rgba(0,0,0,0.71);
+    -moz-box-shadow: inset 200px 10px 152px 23px rgba(0,0,0,0.71);
+    box-shadow: inset 200px 10px 152px 23px rgba(0,0,0,0.71);}
 .card-text{
     position: absolute;
     font-size: 1.5rem;
@@ -125,7 +131,6 @@ header section{
     opacity: 0;
     transition: all .3s ease;
     cursor: pointer;
-    border: 1px solid #000;
 }
 .overlay:hover{
     opacity: .4;

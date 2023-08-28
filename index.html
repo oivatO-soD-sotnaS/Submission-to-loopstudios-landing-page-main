@@ -5,55 +5,144 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="CSS/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Loopstudios landing page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
+
 <body>
-  About
-  Careers
-  Events
-  Products
-  Support
+  
+  <header>
+    <section>
+      <img src="images/logo.svg" alt="Logo image" class="logo">
+      <img src="images/icon-hamburger.svg" alt="Menu icon" id="menu-icon" class="menu-icon">
+    </section>
+    <ul class="menu-dropdown" id="menu-dropdown">
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">CAREERS</a></li>
+      <li><a href="#">EVENTS</a></li>
+      <li><a href="#">PRODUCTS</a></li>
+      <li><a href="#">SUPPORT</a></li>
+    </ul>
+  </header>
+  <section class="hero">
+    <section class="hero-box">
+      <p>IMMERSIVE</p>
+      <p>EXPERIENCES</p>
+      <p>THAT DELIVER</p>
+    </section>
+  </section>
+  <section class="interactive">
+    <img src="images/mobile/image-interactive.jpg" alt="" class="interactive-img">
+    <section>
+      <h1>THE LEADER IN INTERATIVE VR</h1>
+      <p>Founded in 2011, Loopstudios has been producing world-class
+        virtual reality projects for some of the best companies around
+        the globe. Our award-winning creations have transformed businesses
+        through digital experiences that bind to their brand.
+      </p>
+    </section>
+  </section>
+  <section class="creations">
+    <section class="creations--">
+      <h1>OUR CREATIONS</h1>
+      <input type="button" value="SEE ALL" class="creations-button">
+    </section>
+    <section class="top-creations">
+      <section class="card earth">
+        <span class="overlay"></span>
+        <section class="card-text">
+          <h1>DEEP</h1>
+          <h1>EARTH</h1>
+        </section>
+      </section>
+      <section class="card arcade">
+        <span class="overlay"></span>
+        <section class="card-text">
+          <h1>NIGHT</h1>
+          <h1>ARCADE</h1>
+        </section>
+      </section>
+      <section class="card soccer">
+        <span class="overlay"></span>
+        <section class="card-text">
+          <h1>SOCCER</h1>
+          <h1>TEAM VR</h1>
+        </section>
+      </section>
+      <section class="card grid">
+        <span class="overlay"></span>
+        <section class="card-text">
+          <h1>THE</h1>
+          <h1>GRID</h1>
+        </section>
+      </section>
+    </section>
+    <section class="bottom-creations">
+      <section class="card above">
+        <span class="overlay"></span>
+        <section class="card-text">
+          <h1>FROM UP</h1>
+          <h1>ABOVE VR</h1>
+        </section>
+      </section>
+      <section class="card borealis">
+        <span class="overlay"></span>
+        <section class="card-text">
+          <h1>POCKET</h1>
+          <h1>BOREALIS</h1>
+        </section>
+      </section>
+      <section class="card curiosity">
+        <span class="overlay"></span>
+        <section class="card-text">
+          <h1>THE</h1>
+          <h1>CURIOSITY</h1>
+        </section>
+      </section>
+      <section class="card fisheye">
+        <span class="overlay"></span>
+        <section class="card-text">
+          <h1>MAKE IT</h1>
+          <h1>FISHEYE</h1>
+        </section>
+      </section>
+    </section>
+  </section>
+  <footer>
+    <section class="footer-top">
+      <img src="images/logo.svg" alt="Logo image" class="logo">
+      <section class="footer-nav">
+        <a href="#">About</a>
+        <a href="#">Careers</a>
+        <a href="#">Events</a>
+        <a href="#">Products</a>
+        <a href="#">Support</a>
+      </section>
+    </section>
+    <section class="footer-bottom">
+      <section class="socials">
+        <img src="images/icon-facebook.svg" alt="Facebook">
+        <img src="images/icon-twitter.svg" alt="Twitter">
+        <img src="images/icon-pinterest.svg" alt="Pinterest">
+        <img src="images/icon-instagram.svg" alt="Instagram">
+      </section>
+      <p>®2021 Loopstudios. All rights reserved.</p>
+    </section>
+  </footer>
 
-  Immersive experiences that deliver
 
-  The leader in interactive VR
 
-  Founded in 2011, Loopstudios has been producing world-class virtual reality 
-  projects for some of the best companies around the globe. Our award-winning 
-  creations have transformed businesses through digital experiences that bind 
-  to their brand.
-
-  Our creations
-
-  See all
-
-  Deep earth
-  Night arcade
-  Soccer team VR
-  The grid
-  From up above VR
-  Pocket borealis
-  The curiosity
-  Make it fisheye
-
-  About
-  Careers
-  Events
-  Products
-  Support
-
-  © 2021 Loopstudios. All rights reserved.
-
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="https://github.com/oivatO-soD-sotnaS" target="_blank">Otávio do Santos Lima</a>.
+  </div> -->
+  <script src="JS/main.js"></script>
 </body>
 </html>

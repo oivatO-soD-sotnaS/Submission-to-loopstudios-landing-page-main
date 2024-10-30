@@ -245,8 +245,43 @@ footer{
     padding: 1rem;
     cursor: pointer;
 }
-
+.testimonials{
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+}
+.testimonial img{
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);;
+}
+.testimonial h1{
+    margin: 0;
+    font-size: 1.2rem;
+    letter-spacing: .3rem;
+    margin-top: 1.5rem;
+}
+.testimonial h2{
+    font-size: 1rem;
+}
 @media only screen and (min-width:1280px){
+    .employee-testmonials{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4rem;
+    }
+    .testimonial h1{
+        margin: 0;
+        font-size: 1.2rem;
+        letter-spacing: .3rem;
+        margin-top: 1.5rem;
+    }
+    .testimonial h2{
+        font-size: 1rem;
+    }
+    .testimonial{
+        max-width: 30%;
+        text-align: center;
+    }
     .hero{
         background-image: url(../images/desktop/image-hero.jpg);
     }
@@ -301,7 +336,7 @@ footer{
     .interactive-img{
         content: url("../images/desktop/image-interactive.jpg");
     }
-    .creations--{
+    .creations{
         display: flex;
         justify-content: space-between;
         flex-direction: row;
